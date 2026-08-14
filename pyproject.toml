@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mailmerge-cli"
+version = "0.4.2"
+description = "Command-line mail merge for research offices"
+requires-python = ">=3.9"
+license = { file = "LICENSE" }
+
+[project.scripts]
+mailmerge = "mailmerge.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
