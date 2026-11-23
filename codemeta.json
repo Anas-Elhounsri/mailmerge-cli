@@ -1,0 +1,64 @@
+{
+  "@context": "https://w3id.org/codemeta/3.0",
+  "@type": [
+    "SoftwareSourceCode",
+    "SoftwareApplication"
+  ],
+  "license": {
+    "name": "MIT License",
+    "url": "https://spdx.org/licenses/MIT",
+    "identifier": "https://spdx.org/licenses/MIT"
+  },
+  "codeRepository": "https://github.com/Anas-Elhounsri/mailmerge-cli",
+  "issueTracker": "https://api.github.com/repos/Anas-Elhounsri/mailmerge-cli/issues",
+  "dateCreated": "2026-11-03",
+  "dateModified": "2026-11-03",
+  "copyrightHolder": [
+    {
+      "name": "Nadia Ferrer"
+    }
+  ],
+  "copyrightYear": "2026",
+  "downloadUrl": "https://github.com/Anas-Elhounsri/mailmerge-cli/releases",
+  "name": "mailmerge-cli",
+  "keywords": [
+    "cli",
+    "jinja2",
+    "python",
+    "research-software"
+  ],
+  "programmingLanguage": [
+    "Python"
+  ],
+  "softwareRequirements": [
+    {
+      "name": "setuptools",
+      "@type": "SoftwareApplication",
+      "version": ">=68"
+    },
+    {
+      "name": "jinja2",
+      "@type": "SoftwareApplication"
+    },
+    {
+      "name": "reportlab",
+      "@type": "SoftwareApplication",
+      "version": ">=4.0.0"
+    }
+  ],
+  "buildInstructions": [
+    "https://raw.githubusercontent.com/Anas-Elhounsri/mailmerge-cli/main/README.md"
+  ],
+  "author": [
+    {
+      "@type": "Person",
+      "identifier": "Anas-Elhounsri",
+      "@id": "https://github.com/Anas-Elhounsri"
+    }
+  ],
+  "readme": "https://raw.githubusercontent.com/Anas-Elhounsri/mailmerge-cli/main/README.md",
+  "runtimePlatform": "Python>=3.9",
+  "description": [
+    "Command-line mail merge for research offices: Jinja2 templates and CSV recipients to one document per row"
+  ]
+}
