@@ -38,7 +38,8 @@
     },
     {
       "name": "jinja2",
-      "@type": "SoftwareApplication"
+      "@type": "SoftwareApplication",
+      "version": "==3.1.6"
     },
     {
       "name": "reportlab",
